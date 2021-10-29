@@ -6,7 +6,7 @@
 
 /* Body */
 body {
-  background-color:rgb(224, 222, 224);
+  background-color:rgb(235, 235, 235);
   font-family: "Open Sans", sans-serif;
 }
 
@@ -34,16 +34,26 @@ header h2 {
   min-height: 200px;
 }
 
+/* About Page */
+
+.about{
+  padding-top:20px;
+}
+
+
+/* Section: Footer */
+.col-4 col-sm-2 offset-1{
+  padding-top:50px;
+}
+
 footer {
   background-image: linear-gradient(to right, #B5BEBD, #B8B5BE, #BEB5B6,#715A74);
   padding:0;
   margin:0;
 }
 
-/* About Page */
-
-.about{
-  padding-top:20px;
+#footer-content{
+ padding-top:20px;
 }
 
 /* Navbar */
