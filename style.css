@@ -6,7 +6,7 @@
 
 /* Body */
 body {
-  background-color:honeydew;
+  background-color:rgb(224, 222, 224);
   font-family: "Open Sans", sans-serif;
 }
 
@@ -19,15 +19,13 @@ header h2 {
   color: #715A74;
 }
 
-footer {
-  background-image: linear-gradient(to left, #B5BEBD, #B8B5BE, #BEB5B6,#715A74);
-  padding: 20px 0;
-}
-
 .jumbotron {
   padding: 30px;
-  background-image: linear-gradient(to right, #B5BEBD, #B8B5BE, #BEB5B6,#715A74);
-  color: white;
+  /* background-image: linear-gradient(to right, #B5BEBD, #B8B5BE, #BEB5B6,#715A74); */
+  /* color: white; */
+  background-image:url('images/header-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .row-content {
@@ -35,6 +33,19 @@ footer {
   border-bottom: 1px ridge;
   min-height: 200px;
 }
+
+footer {
+  background-image: linear-gradient(to right, #B5BEBD, #B8B5BE, #BEB5B6,#715A74);
+  padding:0;
+  margin:0;
+}
+
+/* About Page */
+
+.about{
+  padding-top:20px;
+}
+
 /* Navbar */
 
 
