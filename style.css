@@ -9,6 +9,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Navigation */
+
+.navbar {
+  background-color: #776979;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: "Lobster Two", cursive;
   color:#413243;
@@ -20,6 +26,7 @@ header h2 {
 
 .jumbotron {
   padding: 30px;
+  margin:0;
   /* background-image: linear-gradient(to right, #B5BEBD, #B8B5BE, #BEB5B6,#715A74); */
   /* color: white; */
   background-image:url('images/header-bg.png');
@@ -34,7 +41,6 @@ header h2 {
 }
 
 /* About Page */
-
 .about{
   padding-top:20px;
 }
@@ -61,7 +67,6 @@ footer {
  padding-top:20px;
 }
 
-/* Navbar */
 
 
 /* Images */
