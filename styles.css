@@ -42,6 +42,13 @@ header h2 {
 
 /* About Page */
 
+/* Contact Page */
+
+/* to override any default properties in bootstrap you have to specify the properties as important. */
+.btn-primary{
+  background-color:#715A74 !important;
+  border-color:#413243 !important;
+}
 
 /* Sites Page */
 
@@ -60,7 +67,6 @@ footer {
 #footer-content{
  padding-top:20px;
 }
-
 
 
 /* Images */
