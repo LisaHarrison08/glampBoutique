@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Glamp Boutique</title>
 
     <!-- Bootstrap -->
@@ -14,7 +14,7 @@
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/7036946589.js" crossorigin="anonymous"></script>
-    
+
 </head>
 
 <body>
@@ -63,7 +63,7 @@
             </div>
         </div>
 
-<!-- occupies only half the width of the row for small to extra large screens.Specify col-sm-6 would auto assign half width to viewports above sm -->
+        <!-- occupies only half the width of the row for small to extra large screens.Specify col-sm-6 would auto assign half width to viewports above sm -->
         <div class="row row-content">
             <div class="col-sm-6">
                 <h3>Our Mission</h3>
@@ -73,15 +73,49 @@
                     campsite to make sure that they are up to our standards. We also present a platform for campers to
                     share reviews on campsites they have visited with each other.</p>
             </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <!-- applied bg-secondary for different theme color -->
+                    <h3 class="card-header bg-secondary text-white">Facts At a Glance</h3>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-6">Founded</dt>
+                            <dd class="col-6">February 3, 2016</dd>
+                            <dt class="col-6">No. of Campsites in 2019</dt>
+                            <dd class="col-6">563</dd>
+                            <dt class="col-6">No. of Reviews in 2019</dt>
+                            <dd class="col-6">4388</dd>
+                            <dt class="col-6">Employees</dt>
+                            <dd class="col-6">42</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card bg-light mt-3">
+                    <blockquote class="blockquote card-body">
+                        <p class="mb-0">I will not follow where the path may lead, but I will go where there is no path,
+                            and
+                            I will leave a trail.</p><br>
+                        <!-- inserted single line break <br>  -->
+                        <footer class="blockquote-footer">Muriel Strode,
+                            <cite title="Source Title">"Wind-Wafted Wild Flowers" -
+                                The Open Court, 1903
+                            </cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
         </div>
 
-<!-- section to stretch across the entire width of row. -->
+        <!-- section to stretch across the entire width of row. -->
         <div class="row row-content">
             <div class="col">
                 <h3>Community Partners</h3>
                 <h4>Bootique Outfitters <small>Outdoor Gear Specialists</small></h4>
 
-<!-- hide elements on a xs screen applied the following classes: .d-none .d-sm-block -->
+                <!-- hide elements on a xs screen applied the following classes: .d-none .d-sm-block -->
                 <p class="d-none d-sm-block">Bootique Outfitters supplies you with the gear you need at prices you can't
                     beat.</p>
                 <h4>Glamp Bootique Expeditions <small>Group Adventure Expeditions</small></h4>
@@ -95,45 +129,90 @@
                     will be sure to get you covered.</p>
             </div>
         </div>
-    </div>
 
-
-
-
-    <footer>
-        <div class="container">
-            <div class="row" id="footer-content">
-                <div class="col-4 col-sm-2 offset-1">
-                    <h5>Links</h5>
-<!-- The list-unstyled Bootstrap class removes default list styles. Added to remove the bullet points in front of the list items: -->
-                    <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="sites.html">Sites</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-<!-- text-center class does not specify a breakpoint size; this means that it is not a responsive class and will apply to all viewport sizes. -->
-                <div class="col-6 col-sm-5 text-center">
-                    <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fab fa-facebook-square"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fab fa-youtube"></i></a>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
-                    <a role="button" class="btn btn-link" href="mailto:glampsites@camp.co"><i class="fa fa-envelope-o"></i> glampsites@camp.co</a>
+        <div class="row row-content">
+            <div class="col-sm-9">
+                <h2>Facts &amp; Figures</h2>
+                <!-- to make a responsive table you need to wrap the table in a table-responsive div -->
+                <div class="table-responsive">
+                    <!-- create table and apply the bootstrap striped class -->
+                    <table class="table table-striped">
+                        <thead>
+                            <tr class="bg-secondary text-light">
+                                <th></th>
+                                <th>2016</th>
+                                <th>2017</th>
+                                <th>2018</th>
+                            </tr>
+                        </thead>
+                        <!-- changed to table secondary for grey color -->
+                        <tbody class="table-secondary">
+                            <tr>
+                                <th>Staff Wilderness Experts</th>
+                                <td>10</td>
+                                <td>20</td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <th>New Campers</th>
+                                <td>256</td>
+                                <td>1,280</td>
+                                <td>5,360</td>
+                            </tr>
+                            <tr>
+                                <th>Square Miles Covered</th>
+                                <td>101,325</td>
+                                <td>423,000</td>
+                                <td>~3,000,000,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 
 
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row" id="footer-content">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5>Links</h5>
+                        <!-- The list-unstyled Bootstrap class removes default list styles. Added to remove the bullet points in front of the list items: -->
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="sites.html">Sites</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- text-center class does not specify a breakpoint size; this means that it is not a responsive class and will apply to all viewport sizes. -->
+                    <div class="col-6 col-sm-5 text-center">
+                        <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                                class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                                class="fab fa-facebook-square"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
+                            1-206-555-1234</a><br />
+                        <a role="button" class="btn btn-link" href="mailto:glampsites@camp.co"><i
+                                class="fa fa-envelope-o"></i> glampsites@camp.co</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 
 </body>
