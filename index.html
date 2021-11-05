@@ -14,37 +14,37 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/7036946589.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-pro/css/all.css" />
 </head>
 
 <body>
+
     <!-- Navigation -->
 
-  <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-    <div class="container">
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#gcampNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="nucampNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="sites.html">Sites</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#gcampNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sites.html">Sites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
     <!-- A Bootstrap jumbotron component is used to call extra attention to a section of the page that shows key messages.  -->
 
-    <header class="jumbotron jumbotron-fluid">
-        <!-- <img src="images/header-bg.png"> -->
+    <header class="jumbotron">
+        <!-- <img src="images/header-bg.png">  -->
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>Boutique Glamping</h1>
+                    <h1><i class="far fa-trees"></i>Boutique Glamping</h1>
                     <h2>A luxurious way to sleep!</h2>
                 </div>
             </div>
@@ -59,12 +59,22 @@
             </div>
 
             <div class="col">
-                <h3 class="text-sm-right">Our Glampsites</h3>
-                <!-- hide elements on a xs screen applied the following classes: .d-none .d-sm-block -->
-                <p class="d-none d-sm-block">Explore our growing database of curated glampsites and leave your own
-                    reviews!</p>
+                <div class="media">
+                    <!-- img-thumbnail class gives a border -->
+                    <img class="d-flex mr-3 img-thumbnail" src="images/site.jpg" alt="Breadcrumb Trail" />
+                    <!-- for the text add the media-body class -->
+                    <div class="media-body align-self-center">
+                        <h3 class="text-sm-right">Our Glampsites</h3>
+                        <!-- hide elements on a xs screen applied the following classes: .d-none .d-sm-block -->
+                        <p class="d-none d-sm-block">Explore our growing database of curated glampsites and leave your
+                            own
+                            reviews!</p>
+                    </div>
+                </div>
             </div>
         </div>
+
+
 
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
@@ -72,7 +82,8 @@
             </div>
             <div class="col">
                 <h3>Glamping in the US</h3>
-                <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the
+                <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground
+                    on the
                     shores of the pristine React Lake is a favorite for fly fishers.</p>
             </div>
         </div>
@@ -81,17 +92,27 @@
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2>Our Community Partners</h2>
             </div>
+
             <div class="col">
-                <h3>Boutique Outfitters</h3>
-                <p class="d-none d-sm-block">Boutique Outfitters supplies you with the gear you need at prices you can't
-                    beat.</p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail" src="images/bed2.jpg" alt="Bootstrap Outfitters" />
+                    <div class="media-body align-self-center">
+                        <h3>Bootique Outfitters</h3>
+                        <p class="d-none d-sm-block">Bootique Outfitters supply you with the gear you need at
+                            prices you can't beat.</p>
+                    </div>
+                </div>
             </div>
+
         </div>
+
     </div>
 
     <footer class="site-footer">
         <div class="container">
+
             <div class="row" id="footer-content">
+
                 <div class="col-4 col-sm-2 offset-1">
                     <h5>Links</h5>
                     <!-- The list-unstyled Bootstrap class removes default list styles. Added to remove the bullet points in front of the list items: -->
@@ -102,19 +123,28 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
+
                 <!-- text-center class does not specify a breakpoint size; this means that it is not a responsive class and will apply to all viewport sizes. -->
                 <div class="col-6 col-sm-5 text-center">
                     <h5>Social</h5>
                     <!-- inserted fa icons  -->
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fab fa-facebook-square"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fab fa-facebook-square"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                            class="fab fa-youtube"></i></a>
                 </div>
+
                 <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
-                    <a role="button" class="btn btn-link" href="mailto:glampsites@camp.co"><i class="fa fa-envelope-o"></i> glampsites@camp.co</a>
+                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
+                        1-206-555-1234</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:glampsites@camp.co"><i
+                            class="fa fa-envelope-o"></i> glampsites@camp.co</a>
                 </div>
+
             </div>
         </div>
     </footer>

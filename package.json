@@ -1,11 +1,11 @@
 {
   "name": "glampboutique",
   "version": "1.0.0",
-  "description": "website for all your glamping needs",
+  "description": "",
   "main": "index.html",
   "scripts": {
-    "lite": "lite-server",
-    "start": "npm run lite",
+    "lite":"lite-server",
+    "start":"npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,10 +22,9 @@
     "lite-server": "^2.6.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-pro": "^5.15.4",
     "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.1.3",
-    "bootstrap-social": "^5.1.1",
-    "jquery": "^3.6.0",
-    "popper.js": "^1.16.1"
+    "jquery": "^3.6.0"
   }
 }
