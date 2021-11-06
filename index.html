@@ -47,6 +47,10 @@
                     <h1><i class="far fa-trees"></i>Boutique Glamping</h1>
                     <h2>A luxurious way to sleep!</h2>
                 </div>
+                <div class="col-md-4 col-xl-2 mt-4">
+                    <!-- <a> tag to Link to another section on the same page: -->
+                    <a class="text-nowrap" href="#reserveForm"><button type="button" class="btn btn-lg btn-secondary">Reserve Campsite</button></a>
+                </div>
             </div>
         </div>
     </header>
@@ -101,6 +105,57 @@
                         <p class="d-none d-sm-block">Bootique Outfitters supply you with the gear you need at
                             prices you can't beat.</p>
                     </div>
+                </div>
+            </div>
+
+        </div>
+
+           <!--  Task 2 -->
+        <!-- sm-6 & utility class mx-auto for this column div to horizontally center it. -->
+        <!-- apply the Bootstrap classes "form-group", "col-form-label", and "form-control" where appropriate within the form. how to know what and where? -->
+
+        <div class="row row-content">
+            <div class="col sm-6 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-secondary text-white">Reserve a Campsite</h3>
+                    <div class="card-body">
+
+                        <form id="reserveForm">
+                            <div class="form-group row">
+                                <div class="col sm-6 form-label">
+                                    <label for="">Number of Campers</label>
+                                </div>
+
+                                <div class="form-group col">
+                                    <select name="numCampers" id="numCampers">
+                                        <option>Select. . .</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group row">
+                                <div class="col sm-6 form-label">
+                                    <label for="date">Date</label>
+                                </div>
+                                <div class="col">
+                                    <input type="date" id="date" name="date" placeholder="">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <button type="submit" class="btn btn-primary">Search</button>
+                            </div>
+
+                        </form>
+                    </div>
+
                 </div>
             </div>
 
