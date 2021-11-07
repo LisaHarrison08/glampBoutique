@@ -100,11 +100,11 @@
 
             <div class="col">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail" src="images/bed2.jpg" alt="Bootstrap Outfitters" />
+                    <img class="d-flex mr-3 img-thumbnail" src="images/bed4.jpg" alt="Bootstrap Outfitters" />
+                    <img class="d-flex mr-3 img-thumbnail" src="images/tableFood.jpg" alt="Bootstrap Outfitters" />
                     <div class="media-body align-self-center">
                         <h3>Bootique Outfitters</h3>
-                        <p class="d-none d-sm-block">Bootique Outfitters supply you with the gear you need at
-                            prices you can't beat.</p>
+                        <p class="d-none d-sm-block">Bootique Outfitters supply you with the gear you need at prices you can't beat.</p>
                     </div>
                 </div>
             </div>
@@ -119,14 +119,14 @@
                     <h3 class="card-header bg-secondary text-white">Reserve a Campsite</h3>
                     <div class="card-body">
 
-                        <form id="reserveForm">
-                            <div class="form-group row">
+                        <form id="reserveForm" class="form-group">
+                            <div class="row">
                                 <div class="col sm-6 form-label">
                                     <label for="">Number of Campers</label>
                                 </div>
 
-                                <div class="form-group col">
-                                    <select name="numCampers" id="numCampers">
+                                <div class="col">
+                                    <select class="form-control" name="numCampers" id="numCampers">
                                         <option>Select. . .</option>
                                         <option>1</option>
                                         <option>2</option>
@@ -141,17 +141,17 @@
                             </div>
 
 
-                            <div class="form-group row">
-                                <div class="col sm-6 form-label">
+                            <div class="row">
+                                <div class="col sm-6 form-label mt-2">
                                     <label for="date">Date</label>
                                 </div>
                                 <div class="col">
-                                    <input type="date" id="date" name="date" placeholder="">
+                                    <input class="form-control mt-2" type="date" id="date" name="date" placeholder="">
                                 </div>
                             </div>
 
-                            <div class="form-group row">
-                                <button type="submit" class="btn btn-primary">Search</button>
+                            <div class="row">
+                                <button type="submit" class="btn btn-primary ml-2">Search</button>
                             </div>
 
                         </form>
