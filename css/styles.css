@@ -29,9 +29,6 @@ header h2 {
   margin:0;
   /* background-image: linear-gradient(to right, #B5BEBD, #B8B5BE, #BEB5B6,#715A74); */
   /* color: white; */
-  background-image:url('images/header-bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .row-content {
