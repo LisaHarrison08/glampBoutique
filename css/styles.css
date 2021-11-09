@@ -38,7 +38,11 @@ header h2 {
 }
 
 /* About Page */
-
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px;
+}
 /* Contact Page */
 
 /* to override any default properties in bootstrap you have to specify the properties as important. */
