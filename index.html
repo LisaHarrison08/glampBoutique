@@ -10,17 +10,34 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-pro/css/all.css" />
+
     <!--CSS Link -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-pro/css/all.css" />
 </head>
 
 <body>
+    <!-- A Bootstrap jumbotron component is used to call extra attention to a section of the page that shows key messages.  -->
+
+    <header class="jumbotron">
+        <!-- <img src="images/header-bg.png">  -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><i class="far fa-trees"></i>Boutique Glamping</h1>
+                    <h2>A luxurious way to sleep!</h2>
+                </div>
+                <div class="col-md-4 col-xl-2 mt-4">
+                    <!-- <a> tag to Link to another section on the same page: -->
+                    <a role="button" class="btn btn-primary btn-lg" href="#reserveForm">Reserve Campsite</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <!-- Navigation -->
-
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#gcampNav">
@@ -36,25 +53,6 @@
             </div>
         </div>
     </nav>
-
-    <!-- A Bootstrap jumbotron component is used to call extra attention to a section of the page that shows key messages.  -->
-
-    <header class="jumbotron">
-        <!-- <img src="images/header-bg.png">  -->
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1><i class="far fa-trees"></i>Boutique Glamping</h1>
-                    <h2>A luxurious way to sleep!</h2>
-                </div>
-                <div class="col-md-4 col-xl-2 mt-4">
-                    <!-- <a> tag to Link to another section on the same page: -->
-                    <a class="text-nowrap" href="#reserveForm"><button type="button"
-                            class="btn btn-lg btn-secondary">Reservations</button></a>
-                </div>
-            </div>
-        </div>
-    </header>
 
     <div class="container">
         <div class="row row-content align-items-center">
@@ -94,7 +92,7 @@
                             the shores of the pristine React Lake is a favorite for fly fishers.</p>
                     </div>
                     <!-- image size 640x340 -->
-                    <img class="d-flex ml-3 img-thumbnail" src="images/lake.jpg" alt="Image of Lake Pend Oreille"/>
+                    <img class="d-flex ml-3 img-thumbnail" src="images/lake.jpg" alt="Image of Lake Pend Oreille" />
                 </div>
             </div>
 
@@ -109,7 +107,8 @@
                 <div class="media">
                     <!-- Images 204x305 -->
                     <img class="d-flex mr-3 img-thumbnail" src="images/bed4.jpg" alt="Image of bed" />
-                    <img class="d-flex mr-3 img-thumbnail" src="images/tableFood.jpg" alt="Image of breakfast table and setaing area" />
+                    <img class="d-flex mr-3 img-thumbnail" src="images/tableFood.jpg"
+                        alt="Image of breakfast table and setaing area" />
                     <div class="media-body align-self-center">
                         <h3>Bootique Outfitters</h3>
                         <p class="d-none d-sm-block">Bootique Outfitters supply you with the gear you need at prices you
